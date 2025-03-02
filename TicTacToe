@@ -11,19 +11,11 @@ public class TicTacToe{
     public static boolean isWinner = false;
     public static boolean isTie = false;
     
-    // public static void initializeBoard(){
-    //     gameBoard = new char[][]{
-    //         {'_', '_', '_'},
-    //         {'_', '_', '_'},
-    //         {'_', '_', '_'}
-    //     };
-    // }
-    
-     public static void initializeBoard(){
+    public static void initializeBoard(){
         gameBoard = new char[][]{
-            {'X', 'O', 'X'},
-            {'O', '_', 'O'},
-            {'X', 'O', '_'}
+            {'_', '_', '_'},
+            {'_', '_', '_'},
+            {'_', '_', '_'}
         };
     }
     
